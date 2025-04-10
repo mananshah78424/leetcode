@@ -28,8 +28,11 @@ def prims(v, graph):
             mst.append([parent, node, dist])
             sum += dist
         
+        # push all the adjacent nodes of the current node
         for i in adj[node]:
+            # if the node is not visited, push it in the pq
             if not visited[i[0]]:
+                # push in the form of wt, node, parent
                 heapq.heappush(pq, (i[1], i[0], node))
         
     return mst, sum
