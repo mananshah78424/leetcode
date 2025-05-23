@@ -14,6 +14,7 @@ def shortestPath(n, edges):
     for i in edges:
         adj[i[0]].append([i[1], i[2]])
 
+
     visited = [False for _ in range(n)]
     stack = []
     for i in range(n):

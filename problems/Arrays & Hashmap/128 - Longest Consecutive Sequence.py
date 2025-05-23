@@ -3,6 +3,7 @@
 #Status - Had to see solution. 
 
 def longestConsecutive(nums):
+    nums.sort()
     num_set, res = set(nums), 0
     for num in num_set:
         if num -1 in num_set:

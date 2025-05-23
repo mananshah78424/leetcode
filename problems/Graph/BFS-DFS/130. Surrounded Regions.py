@@ -33,8 +33,7 @@ def solve(board):
         for j in range(m):
             if board[i][j] == "O" and not visited[i][j]:
                 board[i][j] = "X"
-            elif board[i][j] == "X" and visited[i][j]:
-                board[i][j] = "O"
+
     return board
 
 

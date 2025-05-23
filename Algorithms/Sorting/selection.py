@@ -11,3 +11,10 @@ def selection_sort(arr):
     return arr
 
 print(selection_sort(arr))
+
+# Time Complexity: O(n^2)
+# Space Complexity: O(1)
+# Stable: No
+# In-place: Yes
+# Adaptive: No
+# Used in: Selection sort is used in the selection sort algorithm.

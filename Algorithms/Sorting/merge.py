@@ -24,3 +24,10 @@ def merge_sort(arr):
     return sorted_arr
 
 print(merge_sort(arr))
+
+# Time Complexity: O(nlogn)
+# Space Complexity: O(n)
+# Stable: Yes
+# In-place: No
+# Adaptive: No
+# Used in: Merge sort is used in the merge sort algorithm.

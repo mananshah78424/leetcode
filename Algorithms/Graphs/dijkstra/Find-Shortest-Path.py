@@ -34,3 +34,10 @@ def shortestPath(graph, V):
 edges = [[1,2,2], [2,5,5], [2,3,4], [1,4,1], [4,3,3], [3,5,1]]
 V = 6
 print(shortestPath(edges, V)) # [0, 1, 4, 3, 5]
+
+# Time Complexity: O(E log V)
+# Space Complexity: O(V)
+# Stable: No
+# In-place: No
+# Adaptive: No
+# Used in: Dijkstra's algorithm is used in the shortest path algorithm.

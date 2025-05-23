@@ -25,4 +25,4 @@ graph = {
     4: [0,1],
     5: [0,2]
 }
-print(topologicalSort(graph)) # [4, 5, 0, 2, 3, 1]
+print(topologicalSort(graph)) # [5, 4, 2, 3, 1, 0]

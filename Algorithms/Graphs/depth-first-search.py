@@ -27,3 +27,10 @@ graph = {
 }
 
 print(dfs(graph, 'A'))  # Output: ['A', 'B', 'D', 'E', 'F', 'C']
+
+# Time Complexity: O(V + E)
+# Space Complexity: O(V)
+# Stable: No
+# In-place: No
+# Adaptive: No
+# Used in: Depth-first search is used in the depth-first search algorithm.

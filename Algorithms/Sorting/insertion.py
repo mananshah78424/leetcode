@@ -11,3 +11,10 @@ def insertion_sort(arr):
     return arr
 
 print(insertion_sort(arr))
+
+# Time Complexity: O(n^2)
+# Space Complexity: O(1)
+# Stable: Yes
+# In-place: Yes
+# Adaptive: Yes
+# Used in: Insertion sort is used in the insertion sort algorithm.
